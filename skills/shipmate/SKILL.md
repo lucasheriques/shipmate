@@ -25,7 +25,7 @@ The agent and the founder have different jobs, and the framework breaks if eithe
 
 ## Venture memory
 
-Persistent state lives in the founder's project repo (suggested: `docs/venture/`), never in the conversation. **Session protocol: read state at the start of any session touching the venture; write deltas at the end.** If the files don't exist, creating them from the diagnosis conversation is the first deliverable.
+Persistent state lives in the founder's project repo (suggested: `docs/venture/`), never in the conversation. **Session protocol: read state at the start of any session touching the venture; write deltas at the end.** If the files don't exist, creating them is the first deliverable: copy the starters from this skill's `templates/venture/` folder and fill them from the diagnosis conversation (or create the three files from the schema below if the templates aren't available). One venture per repo; in a monorepo holding several ventures, use `docs/venture/<name>/`.
 
 | File | Contents | Discipline |
 |---|---|---|

@@ -52,7 +52,7 @@ ln -s "$(pwd)/shipmate/skills/"* ~/.claude/skills/
 Then, in your project:
 
 1. Start a conversation. "I have an idea for X, where do I start?" works. So does "revenue is stuck, diagnose it." The `shipmate` skill triggers, runs the diagnosis, and routes you.
-2. Let it create `docs/venture/` from the [templates](templates/venture/). That's the memory. From then on, every session starts by reading `STATE.md` and ends by writing what changed.
+2. Let it create `docs/venture/` from the [templates](skills/shipmate/templates/venture/), which ship inside the `shipmate` skill. That's the memory. From then on, every session starts by reading `STATE.md` and ends by writing what changed.
 3. Do your half: the calls, the outreach, the asks. The log fills with outside evidence, or it stays empty and the agent tells you the uncomfortable thing.
 
 ## Contributing scars
