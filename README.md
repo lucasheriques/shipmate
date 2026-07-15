@@ -79,12 +79,17 @@ Shipmate triggers when your prompt sounds like a founder question. Prompts that 
 - "I want to build [feature]. Surface the assumptions and design the cheapest tests."
 - "Write the pass bar for this experiment before I run it."
 
+**Getting customers**
+- "I need more customers. Which of the four channels should I be working, and what does an honest week of volume look like?"
+- "Prospects keep saying it's too expensive. Is that a price problem, an offer problem, or a positioning problem?"
+
 **The weekly retro**
 - "Run the weekly retro: walk `decisions.md`, fill in actuals, update my priors."
 
 **Honesty checks**
 - "BigCo's corp dev wants a call. Worth it?"
 - "Read the venture memory and tell me what I'm avoiding."
+- "Six months in. Read the whole log and tell me if a kill rule has fired."
 
 ### Making it stick (context engineering)
 
