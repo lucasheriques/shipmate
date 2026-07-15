@@ -64,6 +64,7 @@ Shipmate triggers when your prompt sounds like a founder question. Prompts that 
 **Starting something**
 - "I have an idea for a Chrome extension that does X. Where do I start?"
 - "Bootstrap the venture memory for this project. Here's everything I know so far."
+- "This product already exists. Bootstrap the venture memory: mine the repo, the docs, and the data I give you. Only dated, sourced facts go in `evidence.md`; flag every claim in `STATE.md` that has nothing behind it, then diagnose my real stage."
 
 **Stuck**
 - "Revenue has been flat for two months. Diagnose it."
