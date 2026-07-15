@@ -1,5 +1,7 @@
 # Shipmate
 
+[![skills.sh](https://skills.sh/b/lucasheriques/shipmate)](https://skills.sh/lucasheriques/shipmate)
+
 **The mate who helps you ship.**
 
 Every AI agent is a yes-man. Ask one about your startup idea and ten minutes later you have a landing page and a go-to-market plan for a product nobody asked for. A founder plus an agreeable agent is a rationalization machine.
