@@ -48,7 +48,7 @@ Each stage: goal → **exit test** (outside evidence only) → **kill rule** →
 Know what you're building toward, and pick the market before the idea — "if you choose the right body of water, most boats will float." Separate the **instinct** (~95% right — the deep human truth) from the **idea** (~25% right — the current implementation). Also state the constraint honestly: months of runway, hours per week, energy. A framework that ignores runway kills ventures politely.
 **Exit test:** goal, market, instinct, and constraint written into `STATE.md`, with the idea labeled "attempt #1."
 **Kill rule:** none — but revisit whenever a kill rule below fires twice.
-**Owner:** *Life at the Speed of Play* — Mark Pincus (see Sources).
+**Owner:** `product-bets` skill (instinct vs idea, body of water).
 
 ### Stage 1 — Validate the problem
 Talk to the people you'd serve about their life, never the idea. Specifics in the past, not opinions about the future. A problem is real when they already spend time or money on it; interest is real only when they give up time, reputation, or cash.
@@ -74,7 +74,7 @@ The idea earns code last. Smallest artifact that produces directional signal (li
 **Agent:** build the artifact in hours, wire measurement. **Founder:** put it in front of strangers. **Both:** the pass bar goes into `decisions.md` **before** traffic, as a count ("≥3 of 10 book a call"), never a percentage.
 **Exit test:** real strangers took the costly action at or above the pre-committed bar.
 **Kill rule:** the bar was pre-committed precisely so this is mechanical — miss it twice on the same idea and the idea is dead; log the learning, next idea, same instinct. (Missing the bar and *renegotiating it* is the one move the agent must block.)
-**Owners:** *Life at the Speed of Play* — Mark Pincus (see Sources); test mechanics in `continuous-discovery` (Simulate → Evaluate).
+**Owners:** `product-bets` skill (Minimum Idea State, Proven-Better-New); test mechanics in `continuous-discovery` (Simulate → Evaluate).
 
 ### Stage 5 — Get customers, manually first
 Core Four in order of warmth: warm outreach → content → cold outreach → paid ads. One channel until dependable, then more volume before more channels. The first hundred customers come from conversations, not campaigns; teaching what you know compounds.
@@ -91,7 +91,7 @@ Once there are users: one outcome metric, an opportunity tree of customer needs,
 ### Stage 7 — Run the operating system
 Weekly ritual: walk `decisions.md`, expected vs actual per bet, steer by one leading movable metric (not MRR, not NPS). Quarterly goals that don't change mid-quarter force bolder bets as gaps widen. One bold, isolated, hacky-fast bet per cycle.
 **Health check:** the weekly retro happened · expected-vs-actual is written, not remembered · ≥half of founder time on product · calibration priors updated this month.
-**Owner:** *Life at the Speed of Play* — Mark Pincus (see Sources).
+**Owner:** `product-bets` skill (roadmap OS, Blue Sheets, OKRs, Bold Beats).
 
 ## Diagnosis — route the symptom to the stage
 
@@ -129,7 +129,7 @@ This framework covers deciding, validating, positioning, pricing, distributing, 
 
 Every stage compiles one authoritative book; the vertical skills in this repo carry the procedures, the books carry the depth:
 
-- *Life at the Speed of Play* — Mark Pincus (2025): stages 0, 4, 7 (instinct vs idea, Minimum Idea State, Proven-Better-New, roadmap OS)
+- *Life at the Speed of Play* — Mark Pincus (2025): `product-bets` skill
 - *The Mom Test* — Rob Fitzpatrick (2013): `mom-test` skill
 - *Obviously Awesome* — April Dunford (2019): `positioning` skill
 - *$100M Offers* — Alex Hormozi (2021): `offer-design` skill

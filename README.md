@@ -20,14 +20,14 @@ Skill packs give your agent **knowledge**. Shipmate gives it a **spine**:
 
 | Stage | Question | Skill / source |
 |---|---|---|
-| 0 | What's the goal, the market, the instinct — and the runway? | *Life at the Speed of Play* |
+| 0 | What's the goal, the market, the instinct — and the runway? | `product-bets` |
 | 1 | Is the problem real? | `mom-test` |
 | 2 | What is this, for whom, against what alternative? | `positioning` |
 | 3 | Is the offer irresistible — and does the money sequence work? | `offer-design`, `money-models` |
-| 4 | Did strangers act, before you built it? | *Life at the Speed of Play* + `continuous-discovery` test mechanics |
+| 4 | Did strangers act, before you built it? | `product-bets` + `continuous-discovery` test mechanics |
 | 5 | Is there a channel that produces customers when you work it? | `lead-gen` (+ `guide-writing`, `teaching-design` for content) |
 | 6 | Do you know what to build next — from evidence? | `continuous-discovery` |
-| 7 | Does the weekly operating system run? | *Life at the Speed of Play* |
+| 7 | Does the weekly operating system run? | `product-bets` |
 
 The entry point is the `shipmate` skill: it diagnoses your stage from your symptom and routes you to the right vertical. Each vertical skill is compiled from one authoritative book (full list in [Sources](#sources)) — the skill is the procedure, the book is the depth.
 

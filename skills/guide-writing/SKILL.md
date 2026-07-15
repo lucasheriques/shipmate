@@ -7,7 +7,7 @@ description: Structure long-form educational content using Write Useful Books (R
 
 ## When to use
 
-Use when structuring long-form educational content as a *product with a promise*: scoping it, ordering its contents, testing it on real readers, and planning its launch. This skill covers structure and product design of the content — voice and prose style are a separate concern (a separate skill). Only for problem-solvers (content promising an outcome); if the work is narrative, artistic, or entertainment-first, this method is explicitly the wrong advice.
+Use when structuring long-form educational content as a *product with a promise*: scoping it, ordering its contents, testing it on real readers, and planning its launch. This skill covers structure and product design of the content — voice and prose style are a separate concern, out of scope here. Only for problem-solvers (content promising an outcome); if the work is narrative, artistic, or entertainment-first, this method is explicitly the wrong advice.
 
 ## The procedure
 
