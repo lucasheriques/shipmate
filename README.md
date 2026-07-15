@@ -55,6 +55,42 @@ Then, in your project:
 2. Let it create `docs/venture/` from the [templates](skills/shipmate/templates/venture/), which ship inside the `shipmate` skill. That's the memory. From then on, every session starts by reading `STATE.md` and ends by writing what changed.
 3. Do your half: the calls, the outreach, the asks. The log fills with outside evidence, or it stays empty and the agent tells you the uncomfortable thing.
 
+## Using it day to day
+
+Shipmate triggers when your prompt sounds like a founder question. Prompts that work:
+
+**Starting something**
+- "I have an idea for a Chrome extension that does X. Where do I start?"
+- "Bootstrap the venture memory for this project. Here's everything I know so far."
+
+**Stuck**
+- "Revenue has been flat for two months. Diagnose it."
+- "People hit the landing page and nobody signs up. What stage am I actually at?"
+
+**Before building anything**
+- "I want to build [feature]. Surface the assumptions and design the cheapest tests."
+- "Write the pass bar for this experiment before I run it."
+
+**The weekly retro**
+- "Run the weekly retro: walk `decisions.md`, fill in actuals, update my priors."
+
+**Honesty checks**
+- "BigCo's corp dev wants a call. Worth it?"
+- "Read the venture memory and tell me what I'm avoiding."
+
+### Making it stick (context engineering)
+
+Skills fire on phrasing, and you won't always phrase things like a founder. Two lines of setup make the system unconditional:
+
+1. Add to your project's `CLAUDE.md` or `AGENTS.md`: *"Venture memory lives in `docs/venture/`. Read `STATE.md` before any product, pricing, or marketing work. The shipmate protocol applies: outside evidence only, hold my pass bars, tell me when I'm doing stage theater."*
+2. Commit `docs/venture/` to the repo. The memory is only as durable as its storage, and an agent in a fresh session recovers the whole venture from those three files.
+
+Worth knowing:
+
+- One venture per repo. A monorepo with several products gets a `docs/venture/<name>/` each.
+- Evidence is a dated, verbatim quote with a source: `2026-07-14, Joao (cold DM): "I'd pay for this today, can I?"`. "Users liked it" doesn't qualify.
+- The agent is instructed to assume you're two stages earlier than you claim. When it refuses to write ad copy and asks about your evidence log instead, that's the product working.
+
 ## Contributing scars
 
 The routing table improves from real misroutings, not opinions. If Shipmate diagnosed your stage wrong, passed you through an exit test that later collapsed, or fired a kill rule at the wrong time, [file a misrouting report](.github/ISSUE_TEMPLATE/misrouting.md). Anonymize freely. The failure pattern is the contribution, not your product's details.
