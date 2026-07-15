@@ -33,7 +33,13 @@ The entry point is the `shipmate` skill: it diagnoses your stage from the sympto
 
 ## Quickstart
 
-Shipmate is plain-markdown [Agent Skills](https://agentskills.io). It works with Claude Code and any agent that reads `SKILL.md` files.
+Shipmate is plain-markdown [Agent Skills](https://agentskills.io). It works with Claude Code, Cursor, Codex, and any agent that reads `SKILL.md` files.
+
+```bash
+npx skills add lucasheriques/shipmate
+```
+
+Prefer doing it by hand? Clone and symlink:
 
 ```bash
 git clone https://github.com/lucasheriques/shipmate.git
