@@ -69,6 +69,12 @@ Shipmate triggers when your prompt sounds like a founder question. Prompts that 
 - "Revenue has been flat for two months. Diagnose it."
 - "People hit the landing page and nobody signs up. What stage am I actually at?"
 
+**Customer calls** (the most important loop in the system)
+- "I have a call with a potential customer tomorrow. Prep me: what are the three things we need to learn, and what question could kill the idea?"
+- "Roleplay the customer so I can practice not pitching."
+- "Here's today's call transcript. Separate real signal from compliments, fluff, and feature requests, then write the snapshot for `evidence.md`."
+- "They said they loved it and to check back next month. Did that meeting succeed or fail?"
+
 **Before building anything**
 - "I want to build [feature]. Surface the assumptions and design the cheapest tests."
 - "Write the pass bar for this experiment before I run it."
