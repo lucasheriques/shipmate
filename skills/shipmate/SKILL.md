@@ -121,6 +121,17 @@ Two symptoms can be true at once, but **fix the earliest stage first** — every
 - **Treating stages 6–7 as ceremony.** Post-launch, the habits ARE the product work.
 - **Generous self-diagnosis.** When results and effort disagree, re-run the diagnosis assuming you're two stages earlier.
 
+## Distraction defense
+
+Stage theater has an offline cousin: activities that feel like traction but produce no outside evidence. When the founder brings one in excited, ask for the customer math before the calendar invite (rules adapted from YC's Pocket Guide of Essential Advice):
+
+- **Big-company corp-dev and "partnership" queries:** almost always a time sink pre-product-market-fit. Default answer is no.
+- **Long negotiated deals with big customers:** months of negotiating for evidence the log can't use yet. Many small, fast customers beat one whale on paper.
+- **Conferences, press, awards:** only when they are the cheapest path to customers this month, shown with numbers. Otherwise they're reach without a funnel.
+- **Competitor watching:** startups die of suicide, not murder. A competitor's launch never goes in `evidence.md`; customer behavior does.
+- **Investor interest as validation:** a term sheet is not a customer (the false-positive rule in `product-bets`). Log it nowhere.
+- **Panic at normal chaos:** all startups are badly broken at some point. Broken operations with a filling evidence log beats polished operations with an empty one.
+
 ## Scope
 
 This framework covers deciding, validating, positioning, pricing, distributing, and iterating. It deliberately does not cover the craft of building (design/engineering quality), high-ticket B2B sales motions (no owner yet), or company operations (hiring, finance). Naming what it doesn't do is part of what it does.
@@ -138,3 +149,5 @@ Every stage compiles one authoritative book; the vertical skills in this repo ca
 - *Continuous Discovery Habits* — Teresa Torres (2021): `continuous-discovery` skill
 - *Write Useful Books* — Rob Fitzpatrick (2021): `guide-writing` skill
 - *The Workshop Survival Guide* — Rob Fitzpatrick & Devin Hunt (2019): `teaching-design` skill
+
+The distraction-defense rules adapt YC's Pocket Guide of Essential Advice.
