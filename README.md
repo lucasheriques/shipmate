@@ -98,6 +98,7 @@ Skills fire on phrasing, and you won't always phrase things like a founder. Two 
 
 1. Add to your project's `CLAUDE.md` or `AGENTS.md`: *"Venture memory lives in `docs/venture/`. Read `STATE.md` before any product, pricing, or marketing work. The shipmate protocol applies: outside evidence only, hold my pass bars, tell me when I'm doing stage theater."*
 2. Commit `docs/venture/` to the repo. The memory is only as durable as its storage, and an agent in a fresh session recovers the whole venture from those three files.
+3. Tell the agent where the numbers live. Add your data sources to the same line: *"usage lives in PostHog project X, revenue in Stripe."* Analytics reachable through a connector (MCP server, CLI) count as outside evidence, and the agent should pull dated metrics itself instead of asking you to paste them.
 
 Worth knowing:
 
