@@ -36,8 +36,10 @@ The entry point is the `shipmate` skill: it diagnoses your stage from the sympto
 Shipmate is plain-markdown [Agent Skills](https://agentskills.io). It works with Claude Code, Cursor, Codex, and any agent that reads `SKILL.md` files.
 
 ```bash
-npx skills add lucasheriques/shipmate
+npx skills add lucasheriques/shipmate -s '*' -y
 ```
+
+Install all ten. Shipmate is one system, not a menu: the `shipmate` skill diagnoses your stage and hands off to the other nine by name, so a partial install breaks the routing.
 
 Prefer doing it by hand? Clone and symlink:
 
