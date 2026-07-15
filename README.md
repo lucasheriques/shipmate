@@ -94,11 +94,10 @@ Shipmate triggers when your prompt sounds like a founder question. Prompts that 
 
 ### Making it stick (context engineering)
 
-Skills fire on phrasing, and you won't always phrase things like a founder. Two lines of setup make the system unconditional:
+Skills fire on phrasing, and you won't always phrase things like a founder. The bootstrap covers this: along with the three memory files, the agent adds a one-line pointer to your project's `CLAUDE.md` or `AGENTS.md` so the memory gets read even when your prompt sounds like ordinary dev work. No manual setup. Two things are still on you:
 
-1. Add to your project's `CLAUDE.md` or `AGENTS.md`: *"Venture memory lives in `docs/venture/`. Read `STATE.md` before any product, pricing, or marketing work. The shipmate protocol applies: outside evidence only, hold my pass bars, tell me when I'm doing stage theater."*
-2. Commit `docs/venture/` to the repo. The memory is only as durable as its storage, and an agent in a fresh session recovers the whole venture from those three files.
-3. Tell the agent where the numbers live. Add your data sources to the same line: *"usage lives in PostHog project X, revenue in Stripe."* Analytics reachable through a connector (MCP server, CLI) count as outside evidence, and the agent should pull dated metrics itself instead of asking you to paste them.
+1. Commit `docs/venture/` to the repo. The memory is only as durable as its storage, and an agent in a fresh session recovers the whole venture from those three files.
+2. Name your data sources in `STATE.md`'s outcome-metric field: *"weekly active users, measured in PostHog project X."* Analytics reachable through a connector (MCP server, CLI) count as outside evidence, and the agent pulls fresh readings itself at session start instead of asking you to paste them.
 
 Worth knowing:
 
