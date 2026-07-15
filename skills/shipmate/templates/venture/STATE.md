@@ -9,7 +9,7 @@
 - **Segment (who-where):** <!-- who exactly, and where you can reach them -->
 - **Positioning line:** For ___ who ___, unlike ___, we ___
 - **Offer + price:**
-- **Outcome metric:** <!-- one leading, movable metric -->
+- **Outcome metric:** <!-- one leading, movable metric + where it's measured (e.g. PostHog project X, Stripe) -->
 - **Target opportunity:** <!-- the one leaf-node need being worked now -->
 
 ## Active experiments
